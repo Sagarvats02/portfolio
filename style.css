@@ -384,11 +384,22 @@ body {
   }
   
   @media screen and (min-width: 1460px) {
+    .section1{
+          width:200%;
+      }
     .form-field {
       width: 200%;
     }
     .container{
         width: 200%;
+    }
+    .navbar{
+         display: none;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        text-align: center;
     }
     
     #form-btn {
